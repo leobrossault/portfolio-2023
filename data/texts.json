@@ -1,0 +1,18 @@
+{
+  "HOMEPAGE": {
+    "HERO": {
+      "title-a": "Hi ! Welcome to",
+      "title-b": "Léo Brossault",
+      "title-c": "Ltd.",
+      "title-d": "Est. 2014."
+    },
+    "ABOUT": {
+      "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus blandit leo ut odio. Praesent nec nisl a purus blandit viverra. Vestibulum volutpat pretium libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.\n\nPellentesque commodo eros a enim. Cras dapibus. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse non nisl sit amet velit hendrerit rutrum.\n\nPellentesque dapibus hendrerit tortor. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Quisque ut nisi. In auctor lobortis lacus. Praesent vestibulum dapibus nibh.\n\nEtiam ut purus mattis mauris sodales aliquam. Cras id dui. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Ut tincidunt tincidunt erat. Integer tincidunt.\n\nInteger ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. In hac habitasse platea dictumst. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Nullam accumsan lorem in dui. Nunc nec neque."
+    },
+    "CONTACT": {
+      "title": "Contact me !",
+      "text": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus blandit leo ut odio. Praesent nec nisl a purus blandit viverra. Vestibulum volutpat pretium libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "email": "brossault.leo@gmail.com"
+    }
+  }
+}

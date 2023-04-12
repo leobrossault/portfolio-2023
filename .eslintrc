@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@nuxtjs/eslint-config-typescript"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "off"
+    ],
+    "@typescript-eslint/no-var-requires": ["off"],
+    "space-before-function-paren": ["off"],
+    "vue/no-multiple-template-root": ["off"]
+  }
+}
