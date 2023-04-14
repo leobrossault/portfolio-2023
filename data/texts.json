@@ -7,12 +7,20 @@
       "title-d": "Est. 2014."
     },
     "ABOUT": {
-      "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus blandit leo ut odio. Praesent nec nisl a purus blandit viverra. Vestibulum volutpat pretium libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.\n\nPellentesque commodo eros a enim. Cras dapibus. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse non nisl sit amet velit hendrerit rutrum.\n\nPellentesque dapibus hendrerit tortor. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Quisque ut nisi. In auctor lobortis lacus. Praesent vestibulum dapibus nibh.\n\nEtiam ut purus mattis mauris sodales aliquam. Cras id dui. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Ut tincidunt tincidunt erat. Integer tincidunt.\n\nInteger ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. In hac habitasse platea dictumst. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Nullam accumsan lorem in dui. Nunc nec neque."
+      "title": "À propos de moi",
+      "description": "Après avoir passé plus de 7 années en agence web, dont 4 en tant que Lead Développeur, je suis aujourd'hui à votre disposition pour vous accompagner, vous épauler ou encore vous conseiller dans vos projets web.\n\nCes dernières années j'ai principalement pu travailler sur des projets de grand ampleur tel qu'une solution d'intranet, des développements sur mesure d'intranet ou encore des sites institutionnels d'entreprises ou associations importantes. Je citerai parmi eux, la solution Inside sur laquelle j'ai travaillé plusieurs années, l'intranet mondial de Hermès, le site Pernod Ricard ou encore très récemment un site événementiel pour la Fondation ARC contre le cancer .\n\nBien qu'ayant travaillé dernièrement sur des éléments beaucoup plus techniques que graphiques, je n'en ai pas moins une grande appétence de part mes études. En effet, j'ai eu la chance d'étudier à Gobelins l'École de l'Image, où j'ai principalement pu travailler sur des projets très graphiques, pouvant aller de l'application mobile à l'installation arduino.\n\nJe serai ravi d'échanger avec vous sur vos besoins, et de collaborer en mettant à profit l'ensemble de mes compétences."
+    },
+    "PROJECTS": {
+      "title": "Mes projets"
     },
     "CONTACT": {
-      "title": "Contact me !",
+      "title": "Contactez moi !",
       "text": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus blandit leo ut odio. Praesent nec nisl a purus blandit viverra. Vestibulum volutpat pretium libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       "email": "brossault.leo@gmail.com"
     }
+  },
+  "PROJECT": {
+    "back": "< Retour aux projets",
+    "stack": "Stack technique :"
   }
 }

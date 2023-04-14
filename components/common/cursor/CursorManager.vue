@@ -1,7 +1,7 @@
 <template>
   <canvas
     ref="canvas"
-    class="fixed inset-0 z-30"
+    class="fixed inset-0 z-10"
     :width="size.w"
     :height="size.h"
     @mousemove="onMove"
@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive } from 'vue'
-import CanvasManager from '~/components/homepage/utils/CanvasManager'
+import CanvasManager from '~/components/common/cursor/CanvasManager'
 import themes from '~/const/themes'
 
 export default defineComponent({
@@ -33,12 +33,21 @@ export default defineComponent({
           c: themes.a.tertiary
         })
       }
+
+      // @ts-ignore
+      document.querySelector('body').addEventListener('mousemove', onMove)
+      window.addEventListener('resize', onResize)
     })
 
     function onMove(e: any) {
       if (canvasManager) {
         canvasManager.draw(e.clientX, e.clientY)
       }
+    }
+
+    function onResize(e: any) {
+      size.w = window.innerWidth
+      size.h = window.innerHeight
     }
 
     return {

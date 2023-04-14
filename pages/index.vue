@@ -1,24 +1,26 @@
 <template>
-  <BackgroundManager />
+  <div>
+    <GradientBackground />
 
-  <CursorManager />
+    <CursorManager />
 
-  <div class="relative z-20">
-    <HeroSection />
+    <div class="relative z-20">
+      <HeroSection />
 
-    <AboutSection />
+      <AboutSection />
 
-    <WorkSection />
+      <WorkSection />
 
-    <ContactSection />
+      <ContactSection />
+    </div>
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
 
-import BackgroundManager from '~/components/homepage/utils/BackgroundManager.vue'
-import CursorManager from '~/components/homepage/utils/CursorManager.vue'
+import GradientBackground from '~/components/homepage/components/GradientBackground.vue'
+import CursorManager from '~/components/common/cursor/CursorManager.vue'
 
 import HeroSection from '~/components/homepage/sections/HeroSection.vue'
 import AboutSection from '~/components/homepage/sections/AboutSection.vue'
@@ -27,7 +29,7 @@ import ContactSection from '~/components/homepage/sections/ContactSection.vue'
 
 export default defineComponent({
   components: {
-    BackgroundManager,
+    GradientBackground,
     CursorManager,
     HeroSection,
     AboutSection,

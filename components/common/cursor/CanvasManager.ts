@@ -1,5 +1,5 @@
 import { localFetch } from 'nitropack/dist/runtime/entries/nitro-prerenderer'
-import CanvasParticle from '~/components/homepage/utils/CanvasParticle'
+import CanvasParticle from '~/components/common/cursor/CanvasParticle'
 
 type Colors = {
   a: string

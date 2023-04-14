@@ -6,7 +6,9 @@ export interface Media {
 export interface Project {
   id: number
   title: string
+  slug: string
   description: string
+  stack?: string
   order: number
   main: Media
   images: Array<Media>

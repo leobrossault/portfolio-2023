@@ -1,9 +1,5 @@
 <template>
-  <div
-    :class="`container m-auto min-h-screen ${
-      center ? 'flex items-center' : 'py-16'
-    }`"
-  >
+  <div :id="id" :class="`container m-auto ${classNames} px-8`">
     <slot />
   </div>
 </template>
@@ -13,13 +9,17 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   props: {
+    id: {
+      required: true,
+      type: String
+    },
+    classNames: {
+      default: '',
+      type: String
+    },
     size: {
       default: 'm',
       type: String
-    },
-    center: {
-      default: false,
-      type: Boolean
     }
   }
 })
