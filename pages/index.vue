@@ -1,17 +1,21 @@
 <template>
   <div>
-    <GradientBackground />
+    <PageElementTransition message="Homepage" />
 
-    <CursorManager />
+    <div>
+      <GradientBackground />
 
-    <div class="relative z-20">
-      <HeroSection />
+      <CursorManager />
 
-      <AboutSection />
+      <div class="relative z-20">
+        <HeroSection />
 
-      <WorkSection />
+        <AboutSection />
 
-      <ContactSection />
+        <WorkSection />
+
+        <ContactSection />
+      </div>
     </div>
   </div>
 </template>
@@ -26,9 +30,11 @@ import HeroSection from '~/components/homepage/sections/HeroSection.vue'
 import AboutSection from '~/components/homepage/sections/AboutSection.vue'
 import WorkSection from '~/components/homepage/sections/WorkSection.vue'
 import ContactSection from '~/components/homepage/sections/ContactSection.vue'
+import PageElementTransition from '~/components/common/PageElementTransition.vue'
 
 export default defineComponent({
   components: {
+    PageElementTransition,
     GradientBackground,
     CursorManager,
     HeroSection,

@@ -13,7 +13,13 @@ module.exports = {
       fontFamily: {
         head: ['Khorla', 'Arial']
       },
-      colors: themes
+      colors: themes,
+      keyframes: {
+        textTransition: {
+          '0%': { transform: 'translateY(-50px)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 }
+        }
+      }
     }
   },
   plugins: [

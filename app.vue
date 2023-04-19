@@ -33,23 +33,29 @@
 
 .page-enter-active,
 .page-leave-active {
-  @apply relative transition-all duration-700 before:content-[''];
-}
-.page-enter-active::before,
-.page-leave-active::before {
-  @apply fixed z-40 top-0 bottom-0 w-full h-screen max-w-[0px] bg-a-primary transition-all duration-700;
+  @apply relative transition-all duration-[1200ms];
 }
 
-.page-leave-active::before {
+.page-leave-active .page-element-transition,
+.page-leave-active .page-element-transition > div {
   @apply left-0;
 }
 
-.page-enter-active::before {
+.page-leave-active .page-text-transition {
+  @apply animate-[textTransition_450ms_300ms_ease-in-out_reverse_forwards];
+}
+
+.page-enter-active .page-element-transition,
+.page-enter-active .page-element-transition > div {
   @apply right-0;
 }
 
-.page-enter-from::before,
-.page-leave-to::before {
+.page-enter-active .page-text-transition {
+  @apply animate-[textTransition_450ms_ease-in-out_forwards];
+}
+
+.page-enter-from .page-element-transition,
+.page-leave-to .page-element-transition {
   @apply max-w-full;
 }
 </style>
