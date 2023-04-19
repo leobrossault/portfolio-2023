@@ -22,7 +22,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { projects } from '~/data/projects.json'
+import projects from '~/data/projects'
 import { tr } from '~/helpers/tr'
 import SectionWrapper from '~/components/common/SectionWrapper.vue'
 import ProjectItem from '~/components/homepage/components/ProjectItem.vue'

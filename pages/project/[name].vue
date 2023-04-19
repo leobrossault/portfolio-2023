@@ -39,7 +39,7 @@
 import { defineComponent } from 'vue'
 import { tr } from '~/helpers/tr'
 import { Project } from '~/types'
-import { projects } from '~/data/projects.json'
+import projects from '~/data/projects'
 import CursorManager from '~/components/common/cursor/CursorManager.vue'
 import SectionWrapper from '~/components/common/SectionWrapper.vue'
 import ProjectImg from '~/components/projects/ProjectImg.vue'
