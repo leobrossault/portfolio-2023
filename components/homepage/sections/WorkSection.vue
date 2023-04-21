@@ -7,14 +7,8 @@
     <div class="grid grid-cols-1 gap-20">
       <ProjectItem
         v-for="project in projects"
-        :id="project.id"
         :key="project.id"
-        :order="project.order"
-        :title="project.title"
-        :slug="project.slug"
-        :description="project.description"
-        :main="project.main"
-        :images="project.images"
+        :project="project"
       />
     </div>
   </SectionWrapper>

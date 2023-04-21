@@ -58,4 +58,14 @@
 .page-leave-to .page-element-transition {
   @apply max-w-full;
 }
+
+.fadeWithBlur-enter-active,
+.fadeWithBlur-leave-active {
+  @apply transition-all duration-300;
+}
+
+.fadeWithBlur-enter-from,
+.fadeWithBlur-leave-to {
+  @apply opacity-0 blur-sm;
+}
 </style>

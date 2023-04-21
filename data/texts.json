@@ -7,20 +7,21 @@
       "title-d": "Est. 2014."
     },
     "ABOUT": {
-      "title": "À propos de moi",
+      "title": "About me",
       "description": "Après avoir passé plus de 7 années en agence web, dont 4 en tant que Lead Développeur, je suis aujourd'hui à votre disposition pour vous accompagner, vous épauler ou encore vous conseiller dans vos projets web.\n\nCes dernières années j'ai principalement pu travailler sur des projets de grand ampleur tel qu'une solution d'intranet, des développements sur mesure d'intranet ou encore des sites institutionnels d'entreprises ou associations importantes. Je citerai parmi eux, la solution Inside sur laquelle j'ai travaillé plusieurs années, l'intranet mondial de Hermès, le site Pernod Ricard ou encore très récemment un site événementiel pour la Fondation ARC contre le cancer .\n\nBien qu'ayant travaillé dernièrement sur des éléments beaucoup plus techniques que graphiques, je n'en ai pas moins une grande appétence de part mes études. En effet, j'ai eu la chance d'étudier à Gobelins l'École de l'Image, où j'ai principalement pu travailler sur des projets très graphiques, pouvant aller de l'application mobile à l'installation arduino.\n\nJe serai ravi d'échanger avec vous sur vos besoins, et de collaborer en mettant à profit l'ensemble de mes compétences."
     },
     "PROJECTS": {
-      "title": "Mes projets"
+      "title": "Projects"
     },
     "CONTACT": {
-      "title": "Contactez moi !",
+      "title": "Contact me !",
       "text": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus blandit leo ut odio. Praesent nec nisl a purus blandit viverra. Vestibulum volutpat pretium libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       "email": "brossault.leo@gmail.com"
     }
   },
   "PROJECT": {
-    "back": "< Retour aux projets",
-    "stack": "Stack technique :"
+    "back": "Back to the projects",
+    "stack": "Technical stack :",
+    "gallery": "Project gallery"
   }
 }

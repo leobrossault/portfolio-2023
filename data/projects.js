@@ -6,12 +6,45 @@ export default [
     slug: 'safran-compliance',
     description:
       'Safran Compliance is a project commissioned by the well-known Safran group to digitize the entire supplier acceptance or rejection process. The current workflow in place at the customer is based on complex Excel files. The objective of the project was to simplify this in order to speed up the workflow. This was a very large project that required months of design and development. The project is still ongoing. On my side, I was Lead Developer, so in charge of creating the frontend architecture (Vue 3, Vite, Tailwind CSS), implementing the different elements and supervising the frontend teams.',
-    stack: 'Vue 3, Vite, TailwindCSS',
+    stack: 'Vue 3, Vite, TailwindCSS, Cypress',
     main: {
       alt: 'Safran Compliance',
-      src: 'safran/main.jpg'
+      src: 'safran/logo.png'
     },
-    images: []
+    images: [
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_1.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_2.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_3.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_4.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_5.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_6.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_7.jpg'
+      },
+      {
+        alt: 'Safran Compliance',
+        src: 'safran/saf_8.jpg'
+      }
+    ]
   },
   {
     id: 2,
@@ -23,7 +56,7 @@ export default [
     stack: 'Vue 2, Webpack, SCSS, Cypress, CI/CD Bitbucket',
     main: {
       alt: 'Main',
-      src: 'inside/main.jpg'
+      src: 'inside/logo.png'
     },
     images: []
   },
@@ -37,7 +70,7 @@ export default [
     stack: 'Next JS, TailwindCSS, Strapi',
     main: {
       alt: 'Main',
-      src: 'les-magnifiques/main.jpg'
+      src: 'les-magnifiques/logo.png'
     },
     images: []
   },
@@ -51,7 +84,7 @@ export default [
     stack: 'Twig, Webpack, TailwindCSS',
     main: {
       alt: 'Main',
-      src: 'f1rst-business-coach/main.jpg'
+      src: 'f1rst-business-coach/logo.svg'
     },
     images: []
   },
@@ -65,7 +98,7 @@ export default [
     stack: 'Vue 2, SCSS, Express, MongoDB',
     main: {
       alt: 'Main',
-      src: 'hermes/main.jpeg'
+      src: 'hermes/logo.svg'
     },
     images: []
   }
